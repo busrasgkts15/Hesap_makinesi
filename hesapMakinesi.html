@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesapla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="calculator__wrap">
+            <div class="calculator__display">
+                <input class="input" id="textMessage" type="text" placeholder="Sonuç">
+            </div>
+            <div class="buttons">
+                <button onclick="sayiNe('+')">+</button>
+                <button onclick="sayiNe('-')">-</button>
+                <button onclick="sayiNe('*')">&times;</button>
+                <button onclick="sayiNe('/')">&divide;</button>
+                <button onclick="sayiNe(1)">1</button>
+                <button onclick="sayiNe(2)">2</button>
+                <button onclick="sayiNe(3)">3</button>
+                <button onclick="sayiNe(4)">4</button>
+                <button onclick="sayiNe(5)">5</button>
+                <button onclick="sayiNe(6)">6</button>
+                <button onclick="sayiNe(7)">7</button>
+                <button onclick="sayiNe(8)">8</button>
+                <button onclick="sayiNe(9)">9</button>
+                <button onclick="sayiNe(0)">0</button>
+                <button onclick="dot('.')">.</button>
+                <button onclick="temizle()">C</button>
+                <button class="btn--large" onclick="sonuc('=')">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="hesapMakinesi.js"></script>
+</body>
+
+</html>
